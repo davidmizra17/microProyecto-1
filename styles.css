@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Inter", sans-serif;
+    background: #575263;
+  }
+
+  .main-title{
+    text-align: center;
+  }
+  .main-subtitle{
+    text-align: center;
+  }
+  .search-box{
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+ 
