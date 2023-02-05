@@ -37,14 +37,26 @@ carouselButtons.forEach(button => {
     })
   })
 
-let json = {
-    java: "65%",
-    python: "60%",
-    javascript: "30%",
-    html: "40%",
-    css: "30%"
-};
+// let json = {
+//     java: "65%",
+//     python: "60%",
+//     javascript: "30%",
+//     html: "40%",
+//     css: "30%"
+// };
 
+// const select = document.querySelector(".skills");
+// const skill = document.createElement("p");
+// for (const key in json) {
+//     if (Object.hasOwnProperty.call(object, key)) {
+//         skill.innerHTML = object[key];
+        
+//     }
+// }
+// const section = document.createElement(div);
+// const section1 = document.createElement(div);
+// section.classList = "container";
+// skill.classList("skill" + skill)
 
 
 
