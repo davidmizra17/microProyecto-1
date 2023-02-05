@@ -216,6 +216,32 @@
   .carousel-button.next {
     right: 1rem;
   }
+
+
+
+  /* SKILLS */
+  * {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 40%; background-color: #04AA6D;} /* Green */
+.css {width: 45%; background-color: #2196F3;} /* Blue */
+.js {width: 30%; background-color: #f44336;} /* Red */
+.java {width: 65%; background-color: #808080;} /* Dark Grey */
+.python {width: 60%; background-color: #808080;} /* Dark Grey */
+
+
   /*iPhone*/
   @media (min-width: 300){
     .image{
