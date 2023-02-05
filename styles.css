@@ -218,16 +218,22 @@
   }
   /*iPhone*/
   @media (min-width: 300){
-
+    .image{
+    width: 100%;
+    }
   }
  /*Tablet*/
   @media (min-width: 768px) {
-    
+    .image{
+        width: 100%;
+        }
   }
   
   /* Desktop */
   @media (min-width: 1024px) {
-    
+    .image{
+        width: 100%;
+        }
   }
 
  

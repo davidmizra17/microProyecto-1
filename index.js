@@ -37,6 +37,13 @@ carouselButtons.forEach(button => {
     })
   })
 
+let json = {
+    java: "65%",
+    python: "60%",
+    javascript: "30%",
+    html: "40%",
+    css: "30%"
+};
 
 
 
