@@ -6,7 +6,11 @@
 
   body {
     font-family: "Inter", sans-serif;
-    background: #575263;
+    background: #f2f2f2;
+  }
+  
+  html{
+    scroll-behavior: smooth;;
   }
 
   .main-title {
@@ -14,7 +18,7 @@
     font-size: 40px;
     line-height: 150%;
     text-align: center;
-    color: #ffffff;
+    color: #312e2e;
     margin: 112px 0 8px 0;
   }
   .main-subtitle {
@@ -28,7 +32,7 @@
 .sections{
     font-weight: 900;
     font-size: 30px;
-    color: #ffffff;
+    color: #312e2e;
     margin-bottom: 25px;
     text-align: center;
 
@@ -38,7 +42,7 @@
     height: max-content;
 }
 .name{
-    color: #ffffff;
+    color: #312e2e;
     text-align: center;
     margin-bottom: 12px;
 }
@@ -47,16 +51,21 @@
     margin-bottom: 8px;
 }
 .items{
-    color: #ffffff;
+    color: #312e2e;
     text-align: center;
     margin-bottom: 12px;
 }
-  ul {
+
+    /* NAVBAR */
+  .navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
   
   li {
@@ -84,6 +93,60 @@
   .search-box{
     text-align: center;
     box-sizing: border-box;
+  }
+  /*MOTIVATIONS IMAGE*/
+  .image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+  }
+  /* CONTACT FORM */
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  #insta{
+    color: #000000;
+    margin-right: 50px;
+  }
+  #pn{
+    color: #000000;
+  }
+  a:hover{
+    background-color: #690b0b;
+  }
+  .socials{
+    text-align: center;
+    color: #45a049;
+    margin-right: 12px;
+  }
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
   }
   /*iPhone*/
   @media (min-width: 300){
